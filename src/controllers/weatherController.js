@@ -58,12 +58,13 @@ async function getWeatherDataByZipCode(zipCode) {
       throw new Error('ZipCode not found');
     }
 
-    return cityWeatherData.weatherData;
+    return cityWeatherData.weatherData; 
 
   } catch (error) {
     throw new Error('ZipCode not found');
   }
 }
+
 
 
 
